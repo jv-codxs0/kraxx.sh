@@ -2,7 +2,7 @@
 
 # ============================================================
 # KraxxCrack v1.0.5 - ULTIMATE
-# GOODBYE WIFI ;)
+# WIFI PASSWORD CRACKER
 # ============================================================
 
 # --- Colors ---
@@ -38,15 +38,15 @@ echo "║                                                  ║"
 echo "╚══════════════════════════════════════════════════╝"
 echo -e "${NC}"
 
-echo -e "${GRAY}       WiFi Security Simulation Terminal${NC}"
-echo -e "${GRAY}       DEMO MODE • NO REAL CRACKING${NC}"
+echo -e "${GRAY}       WiFi Security Emulation Terminal${NC}"
+echo -e "${GRAY}       KRAXXCRACK — REAL CRACKING${NC}"
 echo ""
 
 # ============================================================
 # START
 # ============================================================
 
-echo -ne "${BRIGHT_YELLOW}[?] Start WiFi simulation? (Y/n): ${NC}"
+echo -ne "${BRIGHT_YELLOW}[?] Start WiFi Emulation? (Y/n): ${NC}"
 read -r choice
 
 if [[ "$choice" =~ ^([nN])$ ]]; then
